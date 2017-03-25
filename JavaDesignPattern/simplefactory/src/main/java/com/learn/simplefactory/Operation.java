@@ -4,8 +4,8 @@ package com.learn.simplefactory;
  * Created by hechao on 2017/3/16.
  */
 public abstract class Operation {
-    public double numberA = 0;
-    public double numberB = 0;
+    private double numberA = 0;
+    private double numberB = 0;
 
 
     public double getNumberA() {

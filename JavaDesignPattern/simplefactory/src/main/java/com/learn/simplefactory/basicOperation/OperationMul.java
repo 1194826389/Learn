@@ -8,7 +8,7 @@ import com.learn.simplefactory.Operation;
 public class OperationMul extends Operation {
     public double GetResult() {
         double result = 0;
-        result = numberA * numberB;
+        result = getNumberA() * getNumberB();
         return result;
     }
 }

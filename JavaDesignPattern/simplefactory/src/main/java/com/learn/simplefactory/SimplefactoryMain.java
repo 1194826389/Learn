@@ -15,8 +15,9 @@ public class SimplefactoryMain {
         } catch (InstantiationException e) {
             e.printStackTrace();
         }
-        oper.numberA = 1;
-        oper.numberB = 2;
+        assert oper != null;
+        oper.setNumberA(1);
+        oper.setNumberB(2);
         try {
             double result = oper.GetResult();
             System.out.print(result);
