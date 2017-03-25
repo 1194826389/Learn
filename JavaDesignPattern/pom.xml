@@ -16,6 +16,7 @@
         <module>statemachine</module>
         <module>strategy</module>
         <module>observer</module>
+        <module>template</module>
     </modules>
 
 
