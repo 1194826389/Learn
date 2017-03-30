@@ -19,6 +19,7 @@
         <module>template</module>
         <module>prototype</module>
         <module>singleton</module>
+        <module>decorator</module>
     </modules>
 
 
