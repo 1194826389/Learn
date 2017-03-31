@@ -13,10 +13,13 @@ public class CommandMain {
         Command bakeMuttonCommand2 = new BakeMuttonCommand(boy);
         Waiter girl = new Waiter();
 
+
+        // 开门营业 客户发出请求
         girl.setOrder(bakeChickenWingCommand);
         girl.setOrder(bakeMuttonCommand1);
         girl.setOrder(bakeMuttonCommand2);
 
+        // 老板知道了，去做烧烤了
         girl.notifyBarbecuer();
 
 
