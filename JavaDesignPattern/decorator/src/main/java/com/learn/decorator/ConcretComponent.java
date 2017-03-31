@@ -1,3 +1,5 @@
+package com.learn.decorator;
+
 /**
  * Created by hechao on 2017/3/30.
  */

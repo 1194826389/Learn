@@ -20,6 +20,7 @@
         <module>prototype</module>
         <module>singleton</module>
         <module>decorator</module>
+        <module>command</module>
     </modules>
 
 
