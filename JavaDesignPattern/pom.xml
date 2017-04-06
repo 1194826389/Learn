@@ -21,6 +21,8 @@
         <module>singleton</module>
         <module>decorator</module>
         <module>command</module>
+        <module>bridge</module>
+        <module>mediator</module>
     </modules>
 
 
