@@ -23,6 +23,8 @@
         <module>command</module>
         <module>bridge</module>
         <module>mediator</module>
+        <module>flyweight</module>
+        <module>interpreter</module>
     </modules>
 
 
