@@ -26,6 +26,7 @@
         <module>flyweight</module>
         <module>interpreter</module>
         <module>composite</module>
+        <module>facade</module>
     </modules>
 
 
