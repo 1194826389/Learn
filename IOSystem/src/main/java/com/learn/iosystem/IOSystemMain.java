@@ -1,21 +1,24 @@
 package com.learn.iosystem;
 
-import com.learn.iosystem.DirCheckOrMake.MakeDirectories;
-import com.learn.iosystem.DirTree.Directory;
-import com.learn.iosystem.DirTree.DirectoryDemo;
-import com.learn.iosystem.DirTree.MyDirTree;
+import com.learn.iosystem.readfile.ReadInputFile;
 
 /**
  * Created by hechao on 2017/4/16.
  */
 public class IOSystemMain {
     public static void main(final String args[]) {
-        // test DirFileter
+
+        try {
+            // test DirFileter
 //        MyDirFilter.operation(args);
 //        MyDirTree.operation(args);
 //        DirectoryDemo.operation();
+//        MakeDirectories.operation(args);
+            ReadInputFile.operation();
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
 
-        MakeDirectories.operation(args);
 
     }
 }

@@ -21,7 +21,7 @@ public class MakeDirectories {
     private static void fileData(File f) {
         System.out.println(
                 "Absolute path: " + f.getAbsolutePath() +
-                "\n Can read: " + f.canRead() +
+                "\n Can bufferedInputRead: " + f.canRead() +
                 "\n getName: " + f.getName() +
                 "\n getParent " + f.getParent() +
                 "\n getPath: " + f.getPath() +
