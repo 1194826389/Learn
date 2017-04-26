@@ -1,11 +1,10 @@
 package com.learn.iosystem.readfile;
 
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
-
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+
 
 /**
  * 读取二进制文件
