@@ -2,6 +2,8 @@ package com.learn.basicthread.daemon;
 
 import com.learn.basicthread.priorities.SimplePriorities;
 
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -12,14 +14,24 @@ import java.util.concurrent.TimeUnit;
  */
 public class daemonMain {
     public static void main(String[] arg) throws InterruptedException {
+        // SimpleDaemons
+//        for (int i = 0; i < 10; i++) {
+//            Thread daemon = new Thread(new SimpleDaemons());
+//            daemon.setDaemon(true);// must call before start()
+//            daemon.start();
+//        }
+//        System.out.println("All daemons started");
+//
+//        TimeUnit.MILLISECONDS.sleep(175);
+
+        // 使用ThreadFactory 创建daemon线程
+        ExecutorService executorService = Executors.newCachedThreadPool(new DaemonThreadFractory());
         for (int i = 0; i < 10; i++) {
-            Thread daemon = new Thread(new SimpleDaemons());
-            daemon.setDaemon(true);// must call before start()
-            daemon.start();
+            executorService.execute(new DaemonFromFactory());
         }
         System.out.println("All daemons started");
+        TimeUnit.MILLISECONDS.sleep(500);
 
-        TimeUnit.MILLISECONDS.sleep(175);
 
     }
 }
