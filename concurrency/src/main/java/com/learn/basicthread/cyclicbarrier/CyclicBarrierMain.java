@@ -1,4 +1,4 @@
-package com.learn.basicthread.CyclicBarrier;
+package com.learn.basicthread.cyclicbarrier;
 
 /**
  * Created by hechao on 2017/5/3.

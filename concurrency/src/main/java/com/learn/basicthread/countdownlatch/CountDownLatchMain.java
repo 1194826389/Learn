@@ -1,4 +1,4 @@
-package com.learn.basicthread.CountDownLatch;
+package com.learn.basicthread.countdownlatch;
 
 
 import java.util.concurrent.CountDownLatch;

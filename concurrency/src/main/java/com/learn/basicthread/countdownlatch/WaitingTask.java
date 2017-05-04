@@ -1,6 +1,5 @@
-package com.learn.basicthread.CountDownLatch;
+package com.learn.basicthread.countdownlatch;
 
-import java.util.Random;
 import java.util.concurrent.CountDownLatch;
 
 /**

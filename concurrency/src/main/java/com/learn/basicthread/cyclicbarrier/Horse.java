@@ -1,4 +1,4 @@
-package com.learn.basicthread.CyclicBarrier;
+package com.learn.basicthread.cyclicbarrier;
 
 import java.util.Random;
 import java.util.concurrent.BrokenBarrierException;
