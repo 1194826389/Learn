@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by hechao on 2017/5/3.
  */
-public class DelayQueueTest {
+public class DelayQueueTestMain {
 
     public static void main(String[] args) {
         DelayQueue<DelayedElement> delayQueue = new DelayQueue<DelayedElement>();

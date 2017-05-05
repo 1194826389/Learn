@@ -1,4 +1,4 @@
-package com.learn.basicthread.daemon;
+package com.learn.basicthread.daemon.threadfactorydaemons;
 
 import java.util.concurrent.TimeUnit;
 

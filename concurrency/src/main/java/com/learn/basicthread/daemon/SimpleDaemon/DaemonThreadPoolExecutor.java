@@ -1,4 +1,4 @@
-package com.learn.basicthread.daemon;
+package com.learn.basicthread.daemon.SimpleDaemon;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ThreadFactory;

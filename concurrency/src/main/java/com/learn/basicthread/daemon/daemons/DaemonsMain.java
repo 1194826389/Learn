@@ -1,4 +1,4 @@
-package com.learn.basicthread.daemon;
+package com.learn.basicthread.daemon.daemons;
 
 import java.util.concurrent.TimeUnit;
 
@@ -35,7 +35,7 @@ class DaemonSpawn implements Runnable {
  * Daemon线程被设置成后台模式，然后派生出许多子线程，这些子线程并没有被显示的设置为后台模式，
  * 不过它们的确是后台线程。接着Daemon线程进入无线循环，并在循环里调用yield()方法吧控制权交给其他进程。
  */
-public class Daemons {
+public class DaemonsMain {
     public static void main(String[] args) throws InterruptedException {
         Thread d = new Thread(new Daemon());
         d.setDaemon(true);

@@ -18,7 +18,7 @@ import java.util.concurrent.Executors;
  * 并创建计数器为m的CountDownLatch.当每个任务完成时，都会在这个锁存器上调用countDown()，使得计数器计数m减1。
  * 其他n个任务在这个锁存器上调用await(),将它们自己拦住，直至计数器计数m为0为止，才会开始运行。
  */
-public class CountDownLatchDemo {
+public class CountDownLatchMain {
     private static final int SIZE = 100;
     public static void main(String[] args) {
         ExecutorService exec = Executors.newCachedThreadPool();
