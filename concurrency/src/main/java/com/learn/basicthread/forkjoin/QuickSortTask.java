@@ -6,6 +6,7 @@ import java.util.concurrent.RecursiveAction;
 
 /**
  * Created by hechao on 2017/4/28.
+ * 启动方法在测试方法里。
  */
 public class QuickSortTask extends RecursiveAction {
     final long[] array;
