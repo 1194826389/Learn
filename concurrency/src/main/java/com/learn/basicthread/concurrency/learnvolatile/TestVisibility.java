@@ -1,7 +1,7 @@
-package com.learn.basicthread.learnvolatile;
+package com.learn.basicthread.concurrency.learnvolatile;
 
-import com.learn.basicthread.learnvolatile.dao.DataDao;
-import com.learn.basicthread.learnvolatile.model.Data;
+import com.learn.basicthread.concurrency.learnvolatile.dao.DataDao;
+import com.learn.basicthread.concurrency.learnvolatile.model.Data;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

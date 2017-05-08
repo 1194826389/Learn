@@ -1,4 +1,4 @@
-package com.learn.basicthread.learnvolatile.model;
+package com.learn.basicthread.concurrency.learnvolatile.model;
 
 /**
  * Created by hechao on 2017/5/7.

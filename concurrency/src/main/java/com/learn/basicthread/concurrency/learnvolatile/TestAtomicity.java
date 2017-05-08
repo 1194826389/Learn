@@ -1,10 +1,9 @@
-package com.learn.basicthread.learnvolatile;
+package com.learn.basicthread.concurrency.learnvolatile;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Created by hechao on 2017/5/7.

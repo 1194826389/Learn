@@ -1,6 +1,6 @@
-package com.learn.basicthread.learnvolatile.dao;
+package com.learn.basicthread.concurrency.learnvolatile.dao;
 
-import com.learn.basicthread.learnvolatile.model.Data;
+import com.learn.basicthread.concurrency.learnvolatile.model.Data;
 
 /**
  * Created by hechao on 2017/5/7.
