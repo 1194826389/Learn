@@ -1,4 +1,4 @@
-package com.learn.basicthread.concurrency.synchronize;
+package com.learn.basicthread.concurrency.synchronize.sampleone;
 
 /**
  * Created by hechao on 2017/5/8.

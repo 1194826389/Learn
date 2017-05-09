@@ -1,4 +1,4 @@
-package com.learn.basicthread.concurrency.synchronize;
+package com.learn.basicthread.concurrency.synchronize.sampleone;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
