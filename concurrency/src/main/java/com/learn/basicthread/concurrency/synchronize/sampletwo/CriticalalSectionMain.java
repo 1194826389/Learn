@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
  *
  * 测试synchronized方法比synchronized块效率要低
  */
-public class CriticalalSection {
+public class CriticalalSectionMain {
 
     static void testApproached(PairManager pmanone,PairManager pmantwo) {
         ExecutorService exec = Executors.newCachedThreadPool();

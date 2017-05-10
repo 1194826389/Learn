@@ -9,7 +9,7 @@ import java.util.concurrent.Executors;
  * Created by hechao on 2017/5/3.
  * 待了解 BlockQueue,以及DelayQueue的应用场合
  */
-public class DelayQueueDemo {
+public class DelayQueueDemoMain {
     public static void main(String[] args) {
 
 

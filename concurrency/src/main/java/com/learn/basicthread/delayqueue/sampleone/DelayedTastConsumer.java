@@ -16,6 +16,8 @@ public class DelayedTastConsumer implements Runnable {
     public void run() {
         try {
             while (!Thread.interrupted()) {
+                Thread.currentThread().isInterrupted();
+
                 q.take().run();
             }
         } catch (InterruptedException e) {
