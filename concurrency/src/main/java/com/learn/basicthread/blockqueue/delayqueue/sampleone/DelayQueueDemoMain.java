@@ -1,4 +1,4 @@
-package com.learn.basicthread.delayqueue.sampleone;
+package com.learn.basicthread.blockqueue.delayqueue.sampleone;
 
 import java.util.Random;
 import java.util.concurrent.DelayQueue;

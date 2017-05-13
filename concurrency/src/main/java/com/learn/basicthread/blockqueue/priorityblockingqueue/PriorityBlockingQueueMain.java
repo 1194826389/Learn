@@ -1,4 +1,4 @@
-package com.learn.basicthread.priorityblockingqueue;
+package com.learn.basicthread.blockqueue.priorityblockingqueue;
 
 import java.util.Random;
 import java.util.concurrent.ExecutorService;
