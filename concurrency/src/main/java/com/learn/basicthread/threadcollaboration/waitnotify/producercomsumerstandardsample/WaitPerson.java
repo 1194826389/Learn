@@ -1,4 +1,4 @@
-package com.learn.basicthread.threadcollaboration.waitnotify.producercomsumertwo;
+package com.learn.basicthread.threadcollaboration.waitnotify.producercomsumerstandardsample;
 
 /**
  * Created by hechao on 2017/5/13.

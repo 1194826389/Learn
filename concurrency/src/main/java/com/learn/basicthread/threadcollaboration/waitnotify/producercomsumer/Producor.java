@@ -19,23 +19,25 @@ public class Producor extends Thread {
 
     @Override
     public void run() {
-        while (!Thread.interrupted()) {
-            synchronized (queue) {
-                while (queue.size() == maxSize) {
-                    try {
-                        System.out.println("Queue is full, Producer thread waiting for consumer to take something from queue");
-                        queue.wait();
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                }
+        try {
+            while (!Thread.interrupted()) {
+                synchronized (queue) {
+                    while (queue.size() == maxSize) {
 
-                Random random = new Random();
-                int i = random.nextInt();
-                System.out.println("Producing value: " + i);
-                queue.add(i);
-                queue.notifyAll();
+                            System.out.println("Queue is full, Producer thread waiting for consumer to take something from queue");
+                            queue.wait();
+
+                    }
+
+                    Random random = new Random();
+                    int i = random.nextInt();
+                    System.out.println("Producing value: " + i);
+                    queue.add(i);
+                    queue.notifyAll();
+                }
             }
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
     }
 }

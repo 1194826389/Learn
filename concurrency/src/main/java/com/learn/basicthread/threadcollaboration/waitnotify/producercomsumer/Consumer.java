@@ -17,19 +17,21 @@ public class Consumer extends Thread {
 
     @Override
     public void run() {
-        while (!Thread.interrupted()) {
-            synchronized (queue) {
-                while (queue.isEmpty()) {
-                    System.out.println("Queue is empty, Consumer thread is waiting for producer thread to put something in queue");
-                    try {
-                        queue.wait();
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
+        try {
+            while (!Thread.interrupted()) {
+                synchronized (queue) {
+                    while (queue.isEmpty()) {
+                        System.out.println("Queue is empty, Consumer thread is waiting for producer thread to put something in queue");
+
+                            queue.wait();
+
                     }
+                    System.out.println("Consuming value: " + queue.remove());
+                    queue.notifyAll();
                 }
-                System.out.println("Consuming value: " + queue.remove());
-                queue.notifyAll();
             }
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
     }
 }

@@ -1,4 +1,4 @@
-package com.learn.basicthread.threadcollaboration.waitnotify.producercomsumertwo;
+package com.learn.basicthread.threadcollaboration.waitnotify.producercomsumerstandardsample;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
