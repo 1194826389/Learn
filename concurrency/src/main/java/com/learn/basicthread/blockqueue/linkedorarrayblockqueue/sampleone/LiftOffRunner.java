@@ -1,4 +1,4 @@
-package com.learn.basicthread.blockqueue.linkedorarrayblockqueue;
+package com.learn.basicthread.blockqueue.linkedorarrayblockqueue.sampleone;
 
 import com.learn.basicthread.thread.LiftOff;
 
