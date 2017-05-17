@@ -1,4 +1,4 @@
-package com.learn.basicthread.nolockcontainer;
+package com.learn.basicthread.nolockcontainer.mapcompare;
 
 import java.util.Random;
 import java.util.concurrent.CountDownLatch;
@@ -24,7 +24,7 @@ public abstract class Tester<C> {
     CountDownLatch endLatch;
     static ExecutorService exec = Executors.newCachedThreadPool();
     Integer[] writeData = new Integer[containerSize];
-    Tester(String testId,int nReaders,int nWriters) {
+    Tester(String testId, int nReaders, int nWriters) {
         this.testId = testId + " " + nReaders + "r " + nWriters + "w";
         this.nReaders = nReaders;
         this.nWriters = nWriters;

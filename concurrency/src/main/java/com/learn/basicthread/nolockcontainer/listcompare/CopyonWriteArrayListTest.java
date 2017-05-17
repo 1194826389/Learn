@@ -1,4 +1,4 @@
-package com.learn.basicthread.nolockcontainer;
+package com.learn.basicthread.nolockcontainer.listcompare;
 
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
