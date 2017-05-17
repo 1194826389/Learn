@@ -1,6 +1,4 @@
-package com.learn.basicthread.nolockcontainer;
-
-import com.sun.scenario.effect.impl.prism.PrImage;
+package com.learn.basicthread.nolockcontainer.readerwriterlock;
 
 import java.util.ArrayList;
 import java.util.Collections;
