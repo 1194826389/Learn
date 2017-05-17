@@ -1,4 +1,4 @@
-package com.learn.basicthread.nolockcontainer;
+package com.learn.basicthread.nolockcontainer.listcompare;
 
 import java.util.ArrayList;
 import java.util.Collections;
