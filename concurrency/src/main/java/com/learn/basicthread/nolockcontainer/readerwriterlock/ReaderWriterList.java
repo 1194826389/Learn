@@ -41,7 +41,7 @@ public class ReaderWriterList<T> {
         rlock.lock();
         try {
             if (lock.getReadLockCount() > 1) {
-                System.out.printf(String.valueOf(lock.getReadLockCount()));
+                System.out.println(String.valueOf(lock.getReadLockCount()));
             }
             return lockedList.get(index);
         } finally {
@@ -67,7 +67,7 @@ public class ReaderWriterList<T> {
                     e.printStackTrace();
                 }
 
-                System.out.printf("Writer finished,shutting down");
+                System.out.println("Writer finished,shutting down");
                 exec.shutdownNow();
             }
         }
