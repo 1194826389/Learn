@@ -116,7 +116,7 @@ static int indexFor(int h, int length) {  //jdk1.7的源码，jdk1.8没有这个
 
 HashMap的put方法执行过程可以通过下图来理解，自己有兴趣可以去对比源码更清楚地研究学习。
 
-![jdk1.8_hashMap put方法执行流程图](../PNGFigures/jdk1.8_hashMap put方法执行流程图.png)
+![jdk1.8_hashMap_put方法执行流程图](../PNGFigures/jdk1.8_hashMap_put方法执行流程图.png)
 
 ①.判断键值对数组table[i]是否为空或为null，否则执行resize()进行扩容；
 
