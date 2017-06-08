@@ -10,6 +10,7 @@ public class test {
     public static void main(String[] args) {
 
 
+        HashMap
 
         int j = 0;
         int n = 0;
