@@ -33,6 +33,9 @@ Java *TreeMap*实现了*SortedMap*接口，也就是说会按照`key`的大小�
 
 ![TreeMap_rotateLeft.png](../PNGFigures/TreeMap_rotateLeft.png)
 
+![TreeMap_rotateleft.gif](../PNGFigures/TreeMap_rotateleft.gif)
+
+
 *TreeMap*中左旋代码如下：
 
 ```Java
@@ -62,6 +65,7 @@ private void rotateLeft(Entry<K,V> p) {
 
 ![TreeMap_rotateRight.png](../PNGFigures/TreeMap_rotateRight.png)
 
+![TreeMap_rotateright.gif](../PNGFigures/TreeMap_rotateright.gif)
 *TreeMap*中右旋代码如下：
 
 ```Java
