@@ -1,4 +1,4 @@
-package com.learn.basicthread.threadcollaboration.waitnotify.producercomsumer;
+package com.learn.basicthread.producercomsumer.waitnotify;
 
 import java.util.Queue;
 import java.util.Random;
