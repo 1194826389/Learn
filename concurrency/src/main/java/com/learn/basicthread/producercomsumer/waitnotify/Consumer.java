@@ -22,7 +22,6 @@ public class Consumer extends Thread {
                 synchronized (queue) {
                     while (queue.isEmpty()) {
                         System.out.println("Queue is empty, Consumer thread is waiting for producer thread to put something in queue");
-
                             queue.wait();
 
                     }

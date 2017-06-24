@@ -13,4 +13,15 @@ public class demo {
         }
         System.out.println(rev.toString());
     }
+
+
+    // 反转字符串
+    public static String reverseString(String originStr) {
+        if(originStr == null || originStr.length() <= 1)
+            return originStr;
+        return reverseString(originStr.substring(1)) + originStr.charAt(0);
+    }
+
+
+
 }
