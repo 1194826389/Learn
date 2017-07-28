@@ -1,0 +1,9 @@
+message request {
+    required string requestId = 1;
+    required string className = 2;
+    required string methodName = 3;
+//    repeated  parameterTypes = 4;
+//    repeated object parameters;
+
+
+}
