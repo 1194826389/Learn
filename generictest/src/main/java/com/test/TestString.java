@@ -1,12 +1,9 @@
-package com.learn.basicthread;
-
-import java.util.ArrayList;
-import java.util.concurrent.TimeUnit;
+package com.test;
 
 /**
  * Created by hechao on 2017/5/3.
  */
-public class StringTest {
+public class TestString {
     public void testStringBuffer() {
         long starttime = System.currentTimeMillis();
         StringBuffer sbf = new StringBuffer();

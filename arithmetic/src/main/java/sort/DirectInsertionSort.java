@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
+ * 直接插入排序，希尔排序，简单选择排序，堆排序，冒泡排序，快速排序，归并排序，基数排序
  * Created by hechao on 2017/6/12.
  */
 public class DirectInsertionSort {
@@ -18,6 +19,9 @@ public class DirectInsertionSort {
         return;
     }
 
+    /**
+     * 直接插入排序
+     */
     public static void directInsertionSort() {
         int a[] = {49, 38, 65, 97, 76, 13, 27, 49, 78, 34, 12, 64, 5, 4, 62, 99, 98, 54, 56, 17, 18, 23, 34, 15, 35, 25, 53, 51};
         int temp = 0;
@@ -32,6 +36,9 @@ public class DirectInsertionSort {
         }
     }
 
+    /**
+     * 希尔排序
+     */
     public static void shellSort() {
         int a[] = {1, 54, 6, 3, 78, 34, 12, 45, 56, 100};
         double d1 = a.length;
@@ -61,6 +68,9 @@ public class DirectInsertionSort {
     }
 
 
+    /**
+     * 简单选择排序
+     */
     public static void simpleSelectionSort() {
         int a[] = {1, 54, 6, 3, 78, 34, 12, 45};
         int position = 0;
@@ -80,6 +90,9 @@ public class DirectInsertionSort {
         }
     }
 
+    /**
+     * 堆排序
+     */
     public static class HeapSort {
 
         int a[] = {49, 38, 65, 97, 76, 13, 27, 49, 78, 34, 12, 64, 5, 4, 62, 99, 98, 54, 56, 17, 18, 23, 34, 15, 35, 25, 53, 51};
@@ -144,6 +157,9 @@ public class DirectInsertionSort {
         }
     }
 
+    /**
+     * 冒泡排序
+     */
     public static void bubbleSort() {
         int a[] = {49, 38, 65, 97, 76, 13, 27, 49, 78, 34, 12, 64, 5, 4, 62, 99, 98, 54, 56, 17, 18, 23, 34, 15, 35, 25, 53, 51};
         int temp = 0;
@@ -159,6 +175,10 @@ public class DirectInsertionSort {
         }
     }
 
+
+    /**
+     * 快速排序
+     */
     public static class QuickSort {
         int a[] = {49, 38, 65, 97, 76, 13, 27, 49, 78, 34, 12, 64, 5, 4, 62, 99, 98, 54, 56, 17, 18, 23, 34, 15, 35, 25, 53, 51};
 
@@ -201,6 +221,9 @@ public class DirectInsertionSort {
         }
     }
 
+    /**
+     * 归并排序
+     */
     public static class MergingSort {
         int a[] = {49, 38, 65, 97, 76, 13, 27, 49, 78, 34, 12, 64, 5, 4, 62, 99, 98, 54, 56, 17, 18, 23, 34, 15, 35, 25, 53, 51};
 
@@ -257,6 +280,9 @@ public class DirectInsertionSort {
         }
     }
 
+    /**
+     * 基数排序
+     */
     public static class RadixSort {
         int a[] = {49, 38, 65, 97, 76, 13, 27, 49, 78, 34, 12, 64, 5, 4, 62, 99, 98, 54, 101, 56, 17, 18, 23, 34, 15, 35, 25, 53, 51};
 
