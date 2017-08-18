@@ -10,9 +10,9 @@ import java.net.URI;
 
 /**
  * 客户端去操作hdfs时，是有一个用户身份的
- * 默认情况下，hdfs客户端api会从jvm中获取一个参数来作为自己的用户身份：-DHADOOP_USER_NAME=hadoop
+ * 默认情况下，hdfs客户端api会从jvm中获取一个参数来作为自己的用户身份：
  *
- * 也可以在构造客户端fs对象时，通过参数传递进去
+ * 也可以在构造客户端fs对象时，通过参数传递进去-DHADOOP_USER_NAME=hadoop
  * Created by hechao on 2017/7/30.
  */
 public class HdfsClientDemo {
