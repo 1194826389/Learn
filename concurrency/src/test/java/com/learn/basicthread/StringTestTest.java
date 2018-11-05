@@ -10,9 +10,9 @@ import static org.junit.Assert.*;
 public class StringTestTest {
     @Test
     public void testStringBuffer() throws Exception {
-        StringTest test = new StringTest();
-        test.testStringBuffer();
-        test.testString();
+//        StringTest test = new StringTest();
+//        test.testStringBuffer();
+//        test.testString();
     }
 
 

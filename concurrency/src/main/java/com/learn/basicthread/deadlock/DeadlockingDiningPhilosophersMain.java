@@ -31,7 +31,7 @@ public class DeadlockingDiningPhilosophersMain {
 //                exec.execute(new Philosopher(sticks[i], sticks[(i + 1) % size], i, ponder));
 //            }
 //        }
-        TimeUnit.SECONDS.sleep(10);
-        exec.shutdownNow();
+//        TimeUnit.SECONDS.sleep(100);
+//        exec.shutdownNow();
     }
 }
