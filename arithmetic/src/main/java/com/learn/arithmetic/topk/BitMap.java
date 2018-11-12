@@ -40,8 +40,9 @@ public class BitMap {
         return (a[row] & ( 1 << (n & 0x1F))) != 1;
     }
 
-
-    // 升序
+    /**
+     * 升序
+     */
     public List<Integer> getSortedList(int K) {
         List<Integer> sortedList = new ArrayList<Integer>();
         for(int i=0;i<a.length;i++){
@@ -55,31 +56,4 @@ public class BitMap {
         }
         return sortedList;
     }
-
-//    public void display(int[] a){
-//        System.out.println("BitMap位图展示");
-//        for(int i=0;i<a.length;i++){
-//            List<Integer> list = new ArrayList<Integer>();
-//            int temp = a[i];
-//            for(int j=0;j<32;j++){
-//                list.add(temp & 1);
-//                temp >>= 1;
-//            }
-//            System.out.println("a["+i+"]" + list);
-//        }
-//    }
-
-//        public static void main(String[] args){
-//            int num[] = {1,5,30,32,64,56,159,120,21,17,35,45};
-//            BitMap map = new BitMap();
-//            for(int i=0;i<num.length;i++){
-//                map.addValue(num[i]);
-//            }
-//
-//            int temp = 120;
-//            if(map.exits(temp)){
-//                System.out.println("temp:" + temp + "has already exists");
-//            }
-//            map.display(5);
-//        }
 }
