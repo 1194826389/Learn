@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2ccd521a-b1d3-41c8-b3f4-2b2adc48320d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/ArrayDeque_addFirst.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/ArrayDeque_addLast.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/ArrayDeque_base.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/ArrayDeque_doubleCapacity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/ArrayList_add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/ArrayList_base.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/ArrayList_grow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/Concurrenthashmap_hashBucket.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/Concurrenthashmap_segment.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/HashMap_addEntry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/HashMap_base.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/HashMap_getEntry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/HashMap_removeEntryForKey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/JCF_Collection_Interfaces.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/LinkedHashMap_addEntry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/LinkedHashMap_base.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/LinkedHashMap_removeEntryForKey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/LinkedList_add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/LinkedList_base.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/LinkedList_remove.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/PriorityQueue_base.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/PriorityQueue_offer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/PriorityQueue_peek.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/PriorityQueue_poll.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/PriorityQueue_remove2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/TreeMap_base.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/TreeMap_fixAfterDeletion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/TreeMap_getEntry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/TreeMap_put.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/TreeMap_rotateLeft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/TreeMap_rotateRight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/TreeMap_rotateleft.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/TreeMap_rotateright.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/TreeMap_successor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/concurrenthashmap3_concurrentHashMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/jdk1.7_hashMap死循环例图1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/jdk1.7_hashMap死循环例图2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/jdk1.7_hashMap死循环例图3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/jdk1.7_hashMap死循环例图4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/jdk1.7扩容例图.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/jdk1.8_Hashmap_类图.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/jdk1.8_hashMap_put方法执行流程图.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/jdk1.8_hashMap_哈希算法例图1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/jdk1.8_hashMap_哈希算法例图2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/jdk1.8_hashMap内存结构图.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/jdk1.8_hashMap哈希算法例图.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/jdk1.8_hashMap扩容例图.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/jdk1.8vs1.7性能比较表1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/PNGFigures/jdk1.8vs1.7性能比较表2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/ArrayDeque_addFirst.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/ArrayDeque_addLast.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/ArrayDeque_base.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/ArrayDeque_doubleCapacity.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/ArrayList_add.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/ArrayList_base.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/ArrayList_grow.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/HashMap_addEntry.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/HashMap_base.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/HashMap_getEntry.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/HashMap_removeEntryForKey.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/JCF_Collection_Interfaces.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/LinkedHashMap_addEntry.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/LinkedHashMap_base.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/LinkedHashMap_removeEntryForKey.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/LinkedList_add.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/LinkedList_base.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/LinkedList_remove.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/PriorityQueue_base.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/PriorityQueue_offer.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/PriorityQueue_peek.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/PriorityQueue_poll.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/PriorityQueue_remove2.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/TreeMap_base.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/TreeMap_fixAfterDeletion.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/TreeMap_getEntry.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/TreeMap_put.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/TreeMap_rotateLeft.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/TreeMap_rotateRight.dia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/diaFiles/capacity_vertical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/markdown/0-Introduction.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/markdown/1-Overview.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/markdown/10-ConcurrentHashMap.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/markdown/2-ArrayList.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/markdown/3-LinkedList.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/markdown/4-Stack and Queue.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/markdown/5-TreeSet and TreeMap.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/markdown/6-HashMap_java1.8.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/markdown/6-HashSet and HashMap.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/markdown/7-LinkedHashSet and LinkedHashMap.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/markdown/8-PriorityQueue.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/markdown/9-WeakHashMap.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JCFInternals/source/src.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/abstractfactory/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/abstractfactory/src/main/java/com/learn/abstractfactory/AbstractFactoryMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/abstractfactory/src/main/java/com/learn/abstractfactory/departmentTableOperation/AccessDepartment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/abstractfactory/src/main/java/com/learn/abstractfactory/departmentTableOperation/IDepartment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/abstractfactory/src/main/java/com/learn/abstractfactory/departmentTableOperation/SQLServerDepartment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/abstractfactory/src/main/java/com/learn/abstractfactory/factory/AccessFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/abstractfactory/src/main/java/com/learn/abstractfactory/factory/IFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/abstractfactory/src/main/java/com/learn/abstractfactory/factory/SQLServerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/abstractfactory/src/main/java/com/learn/abstractfactory/table/Department.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/abstractfactory/src/main/java/com/learn/abstractfactory/table/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/abstractfactory/src/main/java/com/learn/abstractfactory/userTableOperation/AccessUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/abstractfactory/src/main/java/com/learn/abstractfactory/userTableOperation/IUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/abstractfactory/src/main/java/com/learn/abstractfactory/userTableOperation/SQLServerUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/bridge/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/bridge/src/main/java/com/learn/bridge/brand/HandsetBrand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/bridge/src/main/java/com/learn/bridge/brand/HandsetBrandM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/bridge/src/main/java/com/learn/bridge/brand/HandsetBrandN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/bridge/src/main/java/com/learn/bridge/bridgeMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/bridge/src/main/java/com/learn/bridge/soft/HandsetAddressList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/bridge/src/main/java/com/learn/bridge/soft/HandsetGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/bridge/src/main/java/com/learn/bridge/soft/HandsetSoft.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/bridge/src/main/resources/Bridge_ClassDiagram.graffle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/bridge/src/main/resources/bridge_class_diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/command/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/command/src/main/java/com/learn/command/basicFrame/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/command/src/main/java/com/learn/command/basicFrame/CommandMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/command/src/main/java/com/learn/command/basicFrame/ConcreteCommandA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/command/src/main/java/com/learn/command/basicFrame/ConcreteCommandB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/command/src/main/java/com/learn/command/basicFrame/Invoker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/command/src/main/java/com/learn/command/basicFrame/Receiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/command/src/main/java/com/learn/command/exampleFrame/BakeChickenWingCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/command/src/main/java/com/learn/command/exampleFrame/BakeMuttonCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/command/src/main/java/com/learn/command/exampleFrame/Barbecuer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/command/src/main/java/com/learn/command/exampleFrame/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/command/src/main/java/com/learn/command/exampleFrame/CommandMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/command/src/main/java/com/learn/command/exampleFrame/Waiter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/command/src/main/resources/Decorator_ClassDiagram.graffle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/command/src/main/resources/command_class_diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/composite/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/composite/src/main/java/com/learn/composite/Company.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/composite/src/main/java/com/learn/composite/CompositeMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/composite/src/main/java/com/learn/composite/ConcreteCompany.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/composite/src/main/java/com/learn/composite/FinanceDepartment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/composite/src/main/java/com/learn/composite/HRDepartment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/decorator/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/decorator/src/main/java/com/learn/decorator/Component.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/decorator/src/main/java/com/learn/decorator/ConcretComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/decorator/src/main/java/com/learn/decorator/ConcreteDecoratorA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/decorator/src/main/java/com/learn/decorator/ConcreteDecoratorB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/decorator/src/main/java/com/learn/decorator/Decorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/decorator/src/main/java/com/learn/decorator/DecoratorMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/decorator/src/main/resources/Decorator_ClassDiagram.graffle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/decorator/src/main/resources/decoratorClassDiagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/facade/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/facade/src/main/java/com/learn/facade/Facade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/facade/src/main/java/com/learn/facade/FacadeMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/facade/src/main/java/com/learn/facade/SubSystem/SubSystemFour.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/facade/src/main/java/com/learn/facade/SubSystem/SubSystemOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/facade/src/main/java/com/learn/facade/SubSystem/SubSystemThree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/facade/src/main/java/com/learn/facade/SubSystem/SubSystemTwo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/factory/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/factory/src/main/java/com/learn/factory/FactoryMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/factory/src/main/java/com/learn/factory/IFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/factory/src/main/java/com/learn/factory/Operation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/factory/src/main/java/com/learn/factory/OperationFactory/AddFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/factory/src/main/java/com/learn/factory/OperationFactory/DivFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/factory/src/main/java/com/learn/factory/OperationFactory/MulFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/factory/src/main/java/com/learn/factory/OperationFactory/SubFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/factory/src/main/java/com/learn/factory/OperationType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/factory/src/main/java/com/learn/factory/basicOperation/OperationAdd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/factory/src/main/java/com/learn/factory/basicOperation/OperationDiv.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/factory/src/main/java/com/learn/factory/basicOperation/OperationMul.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/factory/src/main/java/com/learn/factory/basicOperation/OperationSub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/flyweight/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/flyweight/src/main/java/com/learn/flyweight/ConcreteFlyweight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/flyweight/src/main/java/com/learn/flyweight/Flyweight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/flyweight/src/main/java/com/learn/flyweight/FlyweightFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/flyweight/src/main/java/com/learn/flyweight/FlyweightMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/flyweight/src/main/java/com/learn/flyweight/UnsharedConcreteFlyweight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/interpreter/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/interpreter/src/main/java/com/learn/interpreter/Expression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/interpreter/src/main/java/com/learn/interpreter/InterpreterMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/interpreter/src/main/java/com/learn/interpreter/Note.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/interpreter/src/main/java/com/learn/interpreter/PlayContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/interpreter/src/main/java/com/learn/interpreter/Scale.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/mediator/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/mediator/src/main/java/com/learn/mediator/Colleague.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/mediator/src/main/java/com/learn/mediator/ConcreteColleague1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/mediator/src/main/java/com/learn/mediator/ConcreteColleague2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/mediator/src/main/java/com/learn/mediator/ConcreteMediator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/mediator/src/main/java/com/learn/mediator/Mediator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/mediator/src/main/java/com/learn/mediator/MediatorMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/mediator/src/main/resources/Mediator_ClassDiagram.graffle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/mediator/src/main/resources/mediator_class_diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/observer/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/observer/src/main/java/com/learn/observer/ObserverMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/observer/src/main/java/com/learn/observer/observer/ConcreteObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/observer/src/main/java/com/learn/observer/observer/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/observer/src/main/java/com/learn/observer/subject/ConcreteSubject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/observer/src/main/java/com/learn/observer/subject/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/prototype/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/prototype/src/main/java/com/learn/prototype/deepcopy/ResumeB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/prototype/src/main/java/com/learn/prototype/deepcopy/WorkExperienceB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/prototype/src/main/java/com/learn/prototype/prototypeMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/prototype/src/main/java/com/learn/prototype/shallowcopy/Resume.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/prototype/src/main/java/com/learn/prototype/shallowcopy/WorkExperience.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/prototype/src/main/resources/deepcopy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/prototype/src/main/resources/prototype_ClassDiagram.graffle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/prototype/src/main/resources/shallowcopy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/simplefactory/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/simplefactory/src/main/java/com/learn/simplefactory/Operation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/simplefactory/src/main/java/com/learn/simplefactory/OperationFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/simplefactory/src/main/java/com/learn/simplefactory/OperationType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/simplefactory/src/main/java/com/learn/simplefactory/SimplefactoryMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/simplefactory/src/main/java/com/learn/simplefactory/basicOperation/OperationAdd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/simplefactory/src/main/java/com/learn/simplefactory/basicOperation/OperationDiv.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/simplefactory/src/main/java/com/learn/simplefactory/basicOperation/OperationMul.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/simplefactory/src/main/java/com/learn/simplefactory/basicOperation/OperationSub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/simplefactory/src/main/resources/simpleFactory.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/simplefactory/src/main/resources/simplefactory_ClassDiagram.graffle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/singleton/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/singleton/src/main/java/com/learn/singleton/SingletonMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/singleton/src/main/java/com/learn/singleton/hungryload/BSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/singleton/src/main/java/com/learn/singleton/lazyload/ASingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/singleton/src/main/resources/singletonClassDiagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/singleton/src/main/resources/singleton_ClassDiagram.graffle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/state/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/state/src/main/java/com/learn/state/StateContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/state/src/main/java/com/learn/state/StateMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/state/src/main/java/com/learn/state/statelist/AfternoonState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/state/src/main/java/com/learn/state/statelist/EveningState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/state/src/main/java/com/learn/state/statelist/ForenoonState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/state/src/main/java/com/learn/state/statelist/NoonState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/state/src/main/java/com/learn/state/statelist/RestState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/state/src/main/java/com/learn/state/statelist/SleepingState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/state/src/main/java/com/learn/state/statelist/State.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/statemachine/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/statemachine/src/main/java/com/learn/statemachine/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/statemachine/src/main/java/com/learn/statemachine/Generator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/statemachine/src/main/java/com/learn/statemachine/Input.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/statemachine/src/main/java/com/learn/statemachine/RandomInputGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/statemachine/src/main/java/com/learn/statemachine/State.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/statemachine/src/main/java/com/learn/statemachine/VendingMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/strategy/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/strategy/src/main/java/com/learn/strategy/CashContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/strategy/src/main/java/com/learn/strategy/CashStrategyType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/strategy/src/main/java/com/learn/strategy/StrategyMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/strategy/src/main/java/com/learn/strategy/cashstrategy/CashNormal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/strategy/src/main/java/com/learn/strategy/cashstrategy/CashRebate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/strategy/src/main/java/com/learn/strategy/cashstrategy/CashReturn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/strategy/src/main/java/com/learn/strategy/cashstrategy/CashSuper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/template/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/template/src/main/java/com/learn/template/AbstractClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/template/src/main/java/com/learn/template/ConcreteClassA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/template/src/main/java/com/learn/template/ConcreteClassB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/template/src/main/java/com/learn/template/HM/TemplateClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDesignPattern/template/src/main/java/com/learn/template/TemplateMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/.idea/sbt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/arithmetic.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/src/main/java/com/learn/arithmetic/isprime/isprime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/src/main/java/com/learn/arithmetic/mod/mod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/src/main/java/com/learn/arithmetic/reversestack/demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/src/main/java/com/learn/arithmetic/reversestring/demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/src/main/java/com/learn/arithmetic/sort/DirectInsertionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/src/main/java/com/learn/arithmetic/sort/HeapSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/src/main/java/com/learn/arithmetic/sort/QuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/src/main/java/com/learn/arithmetic/topk/BitMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/src/main/java/com/learn/arithmetic/topk/TopKBitmap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/src/main/java/com/learn/arithmetic/topk/TopKHeap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/src/main/java/com/learn/arithmetic/topk/TopKRandonSelect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/src/main/java/com/learn/arithmetic/tree/BinarySearchTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/src/main/java/com/learn/arithmetic/utils/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/src/test/test/com/learn/arithmetic/topk/TopKBitmapTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/src/test/test/com/learn/arithmetic/topk/TopKHeapTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/src/test/test/com/learn/arithmetic/topk/TopKRandonSelectTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../container/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../container/src/main/java/com/learn/hashmap/LRULinkedHashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../container/src/main/resources/Full-Container-Taxonomy.graffle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../container/src/main/resources/Full-Container-Taxonomy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty/.idea/sbt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty/netty.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timeClient/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timeClient/src/main/java/com/learn/netty/TimeClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timeClient/src/main/java/com/learn/netty/TimeClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../timeClient/src/main/java/com/learn/netty/TimeClientMain.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/rpcclientApp/target/" />
+    <ignored path="$PROJECT_DIR$/rpcserver/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/rpcserverApp/target/" />
+    <ignored path="$PROJECT_DIR$/rpcclient/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="NettyServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpcserver/src/main/java/com/rpc/server/NettyServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RpcHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpcserver/src/main/java/com/rpc/server/RpcHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RpcServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpcserver/src/main/java/com/rpc/server/RpcServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RpcBootstrap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpcserverApp/src/main/java/com/rpc/RpcBootstrap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+              <folding>
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rpcserverApp/src/main/resources/spring.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="63" lean-forward="true" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+              <folding>
+                <element signature="e#750#771#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rpc.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rpcserverApp/src/main/resources/rpc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>main</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/rpcserverApp/src/main/resources/spring.xml" />
+        <option value="$PROJECT_DIR$/rpcserverApp/src/main/resources/rpc.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="44" />
+    <option name="y" value="23" />
+    <option name="width" value="1636" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcserverApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcserverApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcserverApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcserverApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Scala Compiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="RpcBootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rpc.RpcBootstrap" />
+      <module name="rpcServerApp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rpc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RpcBootstrap" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Projects/microstrategy/kiai/appschema-server/production" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ccd521a-b1d3-41c8-b3f4-2b2adc48320d" name="Default" comment="" />
+      <created>1547713107221</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547713107221</updated>
+      <workItem from="1547713109299" duration="354000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="354000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="44" y="23" width="1636" height="1027" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info anchor="bottom" id="Docker" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="SBT Console" />
+      <window_info anchor="bottom" id="Messages" weight="0.32903227" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24968633" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/rpcserver/src/main/java/com/rpc/server/NettyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpcserver/src/main/java/com/rpc/server/RpcHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpcserver/src/main/java/com/rpc/server/RpcServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpcserverApp/src/main/java/com/rpc/RpcBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding>
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpcserverApp/src/main/resources/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="63" lean-forward="true" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+          <folding>
+            <element signature="e#750#771#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpcserverApp/src/main/resources/rpc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.10.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
