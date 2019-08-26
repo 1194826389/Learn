@@ -1,0 +1,39 @@
+Thread 0x7bf8901c0
+
+  locals:
+
+Thread 0x7bf888b48
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.ref.ReferenceQueue.remove(J)Ljava/lang/ref/Reference; (ReferenceQueue.java:143)
+  at java.lang.ref.ReferenceQueue.remove()Ljava/lang/ref/Reference; (ReferenceQueue.java:164)
+  at java.lang.ref.Finalizer$FinalizerThread.run()V (Finalizer.java:209)
+
+  locals:
+    objectId=0x7bf888cd8, line=1
+    objectId=0x7bf888cc8, line=1
+    objectId=0x7bf888cd8, line=2
+    objectId=0x7bf888b48, line=3
+    objectId=0x7bf888cf8, line=3
+
+Thread 0x7bf880db8
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.Object.wait()V (Object.java:502)
+  at java.lang.ref.Reference.tryHandlePending(Z)Z (Reference.java:191)
+  at java.lang.ref.Reference$ReferenceHandler.run()V (Reference.java:153)
+
+  locals:
+    objectId=0x7bf880f30, line=1
+    objectId=0x7bf880f30, line=2
+    objectId=0x7bf880db8, line=3
+
+Thread 0x7bf8904e8
+  at java.lang.OutOfMemoryError.<init>()V (OutOfMemoryError.java:48)
+  at com.test.TestVM$OOMObject.<init>()V (TestVM.java:12)
+  at com.test.TestVM.fillHeap(I)V (TestVM.java:18)
+  at com.test.TestVM.main([Ljava/lang/String;)V (TestVM.java:73)
+
+  locals:
+    objectId=0x7bfe80030, line=1
+    objectId=0x7bf890348, line=2
+    objectId=0x7bf890360, line=3
+

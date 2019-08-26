@@ -6,7 +6,8 @@ import java.util.Map;
 /**
  * Created by hechao on 2017/6/25.
  */
-public class TestLinkedHashMap {
+public class
+TestLinkedHashMap {
     public static void main(String[] args) {
 
         LinkedHashMap<String, String> map = new LRULinkedHashMap<String, String>(16, 0.75f, true);

@@ -1,0 +1,18 @@
+
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Œµ­Ã
+Nsquid:S1854"9Remove this useless assignment to local variable "bytes".(ç°Šþ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Þ‰·ˆ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(—¬žÊûÿÿÿÿ
+ysquid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(«Äâüÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Œµ­Ã
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Úì»Ðøÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+:squid:S2129" Remove this "String" constructor(îâ–Êþÿÿÿÿ
+5squid:S2129" Remove this "String" constructor(¸Íþ
+1squid:S1643"Use a StringBuilder instead.(®Æ½¼
+?squid:S1481"*Remove this unused "bytes" local variable.(ç°Šþ

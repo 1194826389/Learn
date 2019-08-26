@@ -1,0 +1,15 @@
+
+Rsquid:S1191"5Use classes from the Java API instead of Sun classes.(ÉÈÓ8ƒùµºÆ-
+dsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8¦ÎŸ·Æ-
+nsquid:CommentedOutCodeLine3"<This block of commented-out lines of code should be removed.(¡ÌÄÃýÿÿÿÿ8¦ÎŸ·Æ-
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8¦ÎŸ·Æ-
+dsquid:S2142+"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8¦ÎŸ·Æ-
+^squid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8ƒùµºÆ-
+\squid:UselessImportCheck"2Remove this unused import 'sun.nio.ch.ThreadPool'.(ÉÈÓ8ƒùµºÆ-
+[
+squid:S106:"9Replace this use of System.out or System.err by a logger.(•ø¤êýÿÿÿÿ8¦ÎŸ·Æ-
+qsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÿªÚ±ÿÿÿÿÿ8¦ÎŸ·Æ-
+®%squid:RedundantThrowsDeclarationCheck"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(º™Ú78¦ÎŸ·Æ-
+[
+squid:S1068"9Replace this use of System.out or System.err by a logger.(ø™æçøÿÿÿÿ8¦ÎŸ·Æ-
+Fsquid:S1148,"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8¦ÎŸ·Æ-

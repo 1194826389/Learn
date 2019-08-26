@@ -39,5 +39,16 @@ public class TestString {
     }
 
 
+    public static void main(String[] args) {
+        String s0 = "\u0000";
+        String s5 = "\u0005";
+        String s6 = "\u0054";
+
+        String s = s0 + s5 + "stderr" + s0 + s6;
+        byte[] bytes = s.getBytes();
+
+        System.out.println();
+    }
+
 
 }
